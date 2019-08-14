@@ -12,4 +12,12 @@ public class HelloController {
     public String hello(){
         return "Hello Pivotal";
     }
+    
+    @RequestMapping("/helloyou")
+public class HelloController {
+
+    @GetMapping
+    public String hello(){
+        return "Hello chandra";
+    }
 }
