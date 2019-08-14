@@ -10,11 +10,11 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "Hello Pivotal";
+        return "Hello Pivotal Cloud Foundry";
     }
     
     @GetMapping("/helloyou")
     public String helloyou(){
-        return "Hello chandra";
+        return "Hello chandra your configuation is successful";
     }
 }
